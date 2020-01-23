@@ -7,8 +7,8 @@ import datetime as dt
 usernamed = input("What's your username? ")
 passwrd = input("What's your password? ")
 
-reddit = praw.Reddit(client_id='2B8S712oxagcyA', \
-                    client_secret='qMSvKvrCYuJNsaPoRmZxrcoY-mk', \
+reddit = praw.Reddit(client_id='', \
+                    client_secret='', \
                     user_agent='Eldoon', \
                     username=usernamed, \
                     password=passwrd)
